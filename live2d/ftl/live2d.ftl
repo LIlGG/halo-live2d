@@ -16,12 +16,12 @@
         <span class="fui-cross"></span>
     </div>
 </div>
-<script src="${theme_base!}/plugins/live2d/js/takagi-tips.min.js"></script>
+<script src="${theme_base!}/plugins/live2d/js/takagi-tips.js"></script>
 <script src="${theme_base!}/plugins/live2d/js/live2d.min.js"></script> 
 <script>
     var options = {
-        modelAPI: "${settings.live2d_modelAPI!'//live2d.fghrsh.net/api/'}",
-        tipsMessage: "${settings.live2d_tipsMessage!'${theme_base!}/plugins/live2d/json/takagi-tips.json'}",
+        modelAPI: "${((settings.live2d_modelAPI!'')?length>0)?string((settings.live2d_modelAPI!''), '//live2d.fghrsh.net/api/')}",
+        tipsMessage: "${((settings.live2d_tipsMessage!'')?length>0)?string((settings.live2d_tipsMessage!''), '${theme_base!}/plugins/live2d/json/takagi-tips.json')}",
         hitokotoAPI: "${settings.live2d_hitokotoAPI!'lwl12.com'}",
         modelId: ${settings.live2d_modelId!'1'},
         modelTexturesId: ${settings.live2d_modelTexturesId!'1'},
