@@ -3,7 +3,7 @@
 <#if settings.live2d_style??>
     ${settings.live2d_style!}
 </#if>
-<div class="lili">
+<div class="takagi">
     <div class="takagi-tips"></div>
     <canvas id="live2d" class="live2d"></canvas>
     <div class="takagi-tool">

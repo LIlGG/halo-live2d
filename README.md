@@ -50,7 +50,7 @@ live2d
 <script src="https://cdn.bootcdn.net/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 <!-- live2d start -->
 <#if settings.live2d_switch!true>
-<#include "${theme_base!}/plugins/live2d/ftl/live2d.ftl">
+<#include "plugins/live2d/ftl/live2d.ftl">
 <@live2d />
 </#if>
 <!-- live2d end -->
