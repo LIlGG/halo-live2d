@@ -21,7 +21,6 @@
 - 原生改造，方便扩展
 
 ## 使用
----
 ### 目录结构
 ```shell
 live2d
@@ -42,7 +41,7 @@ live2d
 
 ### 食用方法
 1. 点击[下载](https://github.com/LIlGG/halo-live2d/archive/master.zip)
-2. 将压缩包解压至 **Halo主题根目录/plugins** 下，如没有plugins目录，请新建一个
+2. 将压缩包解压至 **Halo主题根目录/plugins** 下，如没有plugins目录，请新建一个。完整路径为 halo主题根目录/plugins/live2d/**
 3. 在ftl文件内引入live2d插件。推荐在footer.ftl内引入
 ```html
 <!-- takagi-tips.js 依赖于 jquery，如已存在则可删除 -->
