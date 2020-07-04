@@ -36,7 +36,8 @@ live2d
     │       live2d.min.js               // Live2D 核心代码
     │       takigi-tips.min.js          // Live2D 扩展代码
     └─── json
-            takagi-tips.json            // Live2D 内置提示语   
+            takagi-tips.json            // Live2D 内置提示语
+settings.yaml   // 与halo配套的配置信息（可选）  
 ```
 
 ### 食用方法
@@ -55,5 +56,8 @@ live2d
 </#if>
 <!-- live2d end -->
 ```
-4. 根据API修改配置文件（可选）
+4. 修改配置文件（可选）
+
+    将包中 [settings.yaml](https://github.com/LIlGG/halo-live2d/blob/master/settings.yaml) 内的所有配置，复制到主题根目录下同名的文件内。（可以根据自己的需求删减）
+
 5. 定制提示语（可选）
