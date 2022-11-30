@@ -6,7 +6,9 @@
   <br />
 </p>
 
-## 说明
+## 说明 
+**【Halo 2.0 版本已拥有插件化功能，后续本功能使用 plugin-live2d 替代，详见 https://github.com/LIlGG/plugin-live2d 】**
+
 本版本 Live2D 基于 [live2d_demo](https://github.com/fghrsh/live2d_demo) 改造。在原有的基础上适配了Halo。
 
 【由于Halo目前没有插件功能，因此只能使用硬性约定的方式来执行live2d，具体操作方式请看 <a href="#使用">使用</a>】
